@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  padding: 1rem;
+}
+
+button{
+  padding: 0 1rem;
+  margin-right: 1rem;
+}
+
+.row-div{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.row-div div{
+  padding: 1rem;
+}
+
+footer{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin-top: 5rem;
+}
