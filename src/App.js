@@ -1,8 +1,14 @@
 import React from 'react'
+import Counter from './Counter'
+import RandomUser from './RandomUser'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Counter />
+      <br />
+      <RandomUser />
+    </div>
   )
 }
 
